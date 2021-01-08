@@ -7,6 +7,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatCardModule } from '@angular/material/card';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [],
@@ -19,6 +21,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatProgressBarModule,
     MatCardModule,
     MatSnackBarModule,
+    MatDialogModule,
+    MatFormFieldModule,
   ],
   exports: [
     MatToolbarModule,
@@ -28,6 +32,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatProgressBarModule,
     MatCardModule,
     MatSnackBarModule,
+    MatDialogModule,
+    MatFormFieldModule,
   ],
 })
 export class MaterialModule {}
